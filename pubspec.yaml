@@ -1,0 +1,81 @@
+name: flutter_auth
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  flutter_svg: ^0.23.0+1
+  flutter_staggered_grid_view: ^0.4.1
+  fl_chart: ^0.40.2
+  provider: ^6.0.1
+  data_table_2: ^2.0.3
+  carousel_pro: ^1.0.0
+  badges: ^2.0.1
+  google_maps_flutter: ^2.0.11
+  shared_preferences: ^2.0.8
+  http: ^0.13.4
+  equatable: ^2.0.3
+  flutter_launcher_icons: ^0.9.2
+  regexed_validator: ^1.0.4
+  get: ^4.3.8
+  razorpay_flutter: ^1.2.3
+  image_picker: 
+  fluttertoast: ^8.0.8
+  flutter_plugin_android_lifecycle: ^2.0.4
+  flutter_secure_storage: ^5.0.2
+
+dev_dependencies:
+flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/icons/app_logo.png"
+flutter_test:
+  sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    platforms:
+        android:
+            package: com.razorpay.razorpay_flutter
+            pluginClass: RazorpayFlutterPlugin
+        ios:
+            pluginClass: RazorpayFlutterPlugin
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/images/grocery_images/
+    - assets/images/categories_images/
+    - assets/images/Bakery/
+    - assets/images/beverages_images/
+    - assets/images/Dairy/
+    - assets/images/fruits/
+    - assets/images/Non-Veg/
+    - assets/images/oil/
+    - assets/icons/account_icons/
